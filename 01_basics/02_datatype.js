@@ -19,3 +19,10 @@
 
  console.log(typeof null);//object
  console.log(typeof undefined);//undefined
+
+
+ //Primitive (call by value)
+ //7 types: String,Number,Boolean,Null,undefined,symbol,BigInt
+
+ //Non primitive (refernce)
+ //Array,Objects,Functions
