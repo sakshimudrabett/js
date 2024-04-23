@@ -2,7 +2,7 @@
  //alert(3+3)//we are using nodejs not browser
  //code readability should be high
 
- let name="sakshi"
+ let names="sakshi"
  let age=20
  let isloggedin=false
 
@@ -26,3 +26,11 @@
 
  //Non primitive (refernce)
  //Array,Objects,Functions
+
+ //strings
+ //string concatenation
+  const name="sakshi"
+ const repocount=50
+//console.log(name+repocount+"value") // not a modernised way of concatenating strings
+
+//console.log(` ${name} ${repocount}`)//string interpolation- mordernised way of showing the string variable with dollar symbol
