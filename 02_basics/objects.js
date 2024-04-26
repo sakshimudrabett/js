@@ -66,3 +66,12 @@
  }
  const{courseinstructor: ci}=course // destructor concept , you can give simle names to access the object elements
  console.log(ci);
+
+ //++++++++++++
+ //JSON API
+ /* its like an object with no name, and the keys and values both are strings " "
+
+ {
+   "name":"sakshi",
+   "age":"20"
+ }
