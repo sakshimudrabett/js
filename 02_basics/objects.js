@@ -69,9 +69,11 @@
 
  //++++++++++++
  //JSON API
- /* its like an object with no name, and the keys and values both are strings " "
-
+ /* its like an object with no name, and the keys and values both are strings " " 
+ */
+/*
  {
    "name":"sakshi",
    "age":"20"
  }
+ */
