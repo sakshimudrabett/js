@@ -55,4 +55,14 @@
 
  //console.log(Object.keys(regularuser));
  //console.log(Object.values(regularuser));
- console.log(Object.entries(regularuser));
+ //console.log(Object.entries(regularuser));
+
+ //+++++++destructuring+++++++++
+
+ const course={
+   coursename:"javascript",
+   price:"999",
+   courseinstructor:"sakshi"
+ }
+ const{courseinstructor: ci}=course // destructor concept , you can give simle names to access the object elements
+ console.log(ci);
