@@ -50,7 +50,15 @@ form.addEventListener('submit',function(e){
     const bmi=(weight/((height*height)/10000)).toFixed(2);
     results.innerHTML=`<span>${bmi}</span>`;
   }
-  
+  const range= document.getElementById('weightguide');
+  const bmi=(weight/((height*height)/10000)).toFixed(2);
+  if(bmi<18.6){
+    range.innerHTML=`Under weight`
+  }else if(bmi<24.9 && bmi>18.6){
+    range.innerHTML=`normal range`
+  }else{
+    range.innerHTML=`Overweight`
+  }
 });
 ```
 
